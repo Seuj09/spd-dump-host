@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SPD Dump Host</string>
+    <string name="run_fdl1">Run BootROM→FDL1 (ums9230)</string>
+    <string name="find_device">Find Unisoc USB</string>
+    <string name="usb_hint">USB = UsbManager FD only. Shizuku is NOT used for USB.</string>
+</resources>

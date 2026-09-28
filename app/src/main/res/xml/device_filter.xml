@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Spreadtrum / Unisoc vendor ID 0x1782 (6018 decimal).
+  BootROM PID 0x4d00 (19712) is the v1 success path (CHECK_BAUD → SPRD3 → FDL1).
+  Vendor-only entry catches post-loader PIDs for later FDL2 reattach work (out of v1 scope).
+-->
+<resources>
+    <usb-device vendor-id="6018" product-id="19712" /> <!-- 1782:4d00 BootROM -->
+    <usb-device vendor-id="6018" />                    <!-- any Unisoc PID -->
+</resources>
